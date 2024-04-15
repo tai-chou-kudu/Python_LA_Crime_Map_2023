@@ -1,5 +1,3 @@
-# Python_LA_Crime_Map_2023
-Exploratory Los Angeles County 2023 Crime Map for BlueBonnet fellowship and Progressive organization focused on transforming systems of incarceration and criminalization.
 
 # Los Angeles County 2023 Crime Map 
 
@@ -16,7 +14,7 @@ Exploratory Los Angeles County 2023 Crime Map for BlueBonnet fellowship and Prog
  
 ### Project Overview
 
-This data analysis project aims to provide insights into crime trends in Los Angeles County in 2023. Through the development of an exploratory mapping tool, the goal is to create a user-friendly visual resource that can assist the client organization in identifying patterns to guide strategic decisions and funding allocations.
+This data project aims to provide insights into crime trends in Los Angeles County in 2023. Through the development of an exploratory mapping tool, the goal is to create a user-friendly visual resource that can assist the client organization in identifying patterns to guide strategic decisions and funding allocations.
 
 ### Data Sources
 
