@@ -26,8 +26,7 @@ def create_base_map(cities, mean_centroid):
 cities = gpd.read_file('City_and_Unincorporated_Boundaries_(Legal).shp')
 
 # Load crime data
-crime_df = pd.read_csv(''
-                       '2023crimedata.csv')
+crime_df = pd.read_csv('2023crimedata.csv')
 crime_df.columns = crime_df.columns.str.lower()
 
 # Standardize category data format
