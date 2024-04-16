@@ -14,7 +14,7 @@
  
 ### Project Overview
 
-This data project aims to provide insights into crime trends in Los Angeles County in 2023. Through the development of an exploratory mapping tool, the goal is to create a user-friendly visual resource that can assist the client organization in identifying patterns to guide strategic decisions and funding allocations.
+This data project aims to provide insights into crime trends in Los Angeles County in 2023. This mapping tool is designed to assist the progressive organization in identifying key areas to concentrate its decriminalization and anti-carceral initiatives.
 
 ### Data Sources
 
