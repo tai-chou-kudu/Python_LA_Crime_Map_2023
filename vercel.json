@@ -3,10 +3,10 @@
     "builds": [
         {
             "src": "crime_map_app.py",
-            "use": "@vercel/python"
+            "use": "@vercel/python",
             "config": {
-        "runtime": "python3.10"
-    }
+                "runtime": "python3.10"
+            }
         }
     ],
     "routes": [
@@ -15,5 +15,11 @@
             "dest": "crime_map_app.py"
         }
     ],
-    "outputDirectory": "."
+    "outputDirectory": ".",
+    "rewrites": [
+        {
+            "source": "/(.*)",
+            "destination": "/"
+        }
+    ]
 }
