@@ -1,0 +1,6 @@
+Flask==3.0.3
+geopandas==0.14.3
+dash==2.16.1
+plotly-express==0.4.1
+pandas==2.2.2
+shapely==2.0.3
