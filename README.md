@@ -11,6 +11,7 @@
 - [Data Analysis and Transformation](#data-analysis-and-transformation)
 - [Results](#results)
 - [Limitations](#limitations)
+- [Next Steps](#next-steps)
  
 ### Project Overview
 
@@ -85,7 +86,7 @@ This mapping tool is dedicated solely to crime data. There is potential to enhan
 
 The heat map may present a skewed representation by emphasizing areas with higher populations.
 
-### Next Steps: 
+### Next Steps
 
 - Transform data to normalize based on population density, providing this data as primary or additional heat map layers for greater context.
 - Include data from the past five years, spanning 2018-2023, with the ability for the user to select specific years.
