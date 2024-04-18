@@ -77,7 +77,9 @@ I used Python: geopandas, plotly, dash web app, and other libraries to create a 
 
 ### Results
 
-[Link to Los Angeles County 2023 Crime Map Web App]( ) - Web App Deployment on Pause. Screenshots can be viewed through my [Portfolio Page](https://mavenanalytics.io/project/13780)
+[Link to Los Angeles County 2023 Crime Map Web App]( ) - Web App Deployment on Pause. 
+
+Screenshots can be viewed through my [Portfolio Page](https://mavenanalytics.io/project/13780)
  
 
 ### Limitations
