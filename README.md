@@ -83,4 +83,10 @@ I used Python: geopandas, plotly, dash web app, and other libraries to create a 
 
 This mapping tool is dedicated solely to crime data. There is potential to enhance it by incorporating additional layers, such as racial demographics and socio-economic status, to examine patterns and connections related to bias within the criminal justice system. 
 
+The heat map may present a skewed representation by emphasizing areas with higher populations.
 
+### Next Steps: 
+
+- Transform data to normalize based on population density, providing this data as primary or additional heat map layers for greater context.
+- Include data from the past five years, spanning 2018-2023, with the ability for the user to select specific years.
+- Provide options to overlay demographic information onto the map in addition to the arrest data points.
