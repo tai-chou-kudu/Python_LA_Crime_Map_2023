@@ -5,4 +5,3 @@ plotly-express==0.4.1
 pandas==2.2.2
 shapely==2.0.4
 gunicorn==22.0.0
-uvicorn==0.30.0
