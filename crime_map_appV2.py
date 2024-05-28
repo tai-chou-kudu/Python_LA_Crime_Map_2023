@@ -124,6 +124,9 @@ app.layout = html.Div([
     ])
 ])
 
+# Expose the Flask server
+server = app.server
+p;÷;/.l.
 # Define callback function to update crime data based on selected year
 @app.callback(
     Output('heat-map-choropleth', 'figure'),
@@ -318,7 +321,9 @@ def update_specific_crime_scatter(selected_crime_categories, selected_year):
     return fig
 
 # Run the app
-if __name__ == '__main__':
-    app.run_server(debug=True)
+
+if __name__ == "__main__":
+    port = int(os.environ.get('PORT', 8050))
+    app.run_server(debug=True, host='0.0.0.0', port=port)
 
 
