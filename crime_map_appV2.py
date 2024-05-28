@@ -126,7 +126,7 @@ app.layout = html.Div([
 
 # Expose the Flask server
 server = app.server
-p;÷;/.l.
+
 # Define callback function to update crime data based on selected year
 @app.callback(
     Output('heat-map-choropleth', 'figure'),
