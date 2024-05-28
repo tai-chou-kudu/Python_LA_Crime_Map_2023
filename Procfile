@@ -1,1 +1,1 @@
-web: gunicorn crime_map_appV2:app
+web: gunicorn crime_map_appV2:server
