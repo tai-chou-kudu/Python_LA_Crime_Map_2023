@@ -30,15 +30,21 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 # Specify the relative path to the shapefile
 shapefile_path = os.path.join(current_dir, 'City_and_Unincorporated_Boundaries_(Legal).shp')
 
+print("Loading shapefile...")
 # Load shapefile for cities
 cities = gpd.read_file(shapefile_path)
+print("Shapefile loaded successfully.")
+
 
 # Specify the relative path to the CSV file
 csv_path = os.path.join(current_dir, '2023crimedata.csv')
 
 # Load crime data for 2023 initially
+print("Loading CSV file...")
 crime_df = pd.read_csv(csv_path)
 crime_df.columns = crime_df.columns.str.lower()
+print("CSV file loaded successfully.")
+
 
 # Standardize category data format
 crime_df['category'] = crime_df['category'].str.strip()
