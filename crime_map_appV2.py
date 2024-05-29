@@ -83,13 +83,13 @@ app.layout = html.Div([
     ]),
     dcc.Tabs([
         # Tab 1: Heat Map and Choropleth
-        dcc.Tab(label='LA County Crime Heat Map', children=[
+        dcc.Tab(label='LA County Arrest Heat Map', children=[
             html.Div([
                 dcc.Graph(id='heat-map-choropleth')
             ])
         ]),
         # Tab 2: Aggregated Crime Categories
-        dcc.Tab(label='View by Aggregated Crime', children=[
+        dcc.Tab(label='View by Offense Type', children=[
             dcc.Checklist(
                 id='crime-category-checklist',
                 options=[
@@ -109,7 +109,7 @@ app.layout = html.Div([
             ])
         ]),
         # Tab 3: Specific Crime Categories
-        dcc.Tab(label='View By Specific Crime', children=[
+        dcc.Tab(label='View By Offense', children=[
             # Dropdown select multiple feature at the top
             dcc.Dropdown(
                 id='specific-crime-dropdown',
