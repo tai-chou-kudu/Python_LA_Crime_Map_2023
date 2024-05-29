@@ -326,8 +326,9 @@ def update_specific_crime_scatter(selected_crime_categories, selected_year):
 
     return fig
 
-# Run the app
+# Get the port from the environment variable or use a default value (e.g., 8000)
+port = int(os.environ.get('PORT', 8000))
 
-port = int(os.environ.get('PORT', 8050))
-
-
+# Run the server
+if __name__ == '__main__':
+    app.run_server(debug=True, port=port)
